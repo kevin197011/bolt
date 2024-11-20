@@ -2,7 +2,7 @@
 # To read more about inventory files, see https://pup.pt/bolt-inventory
 #
 groups:
-  - name: linux
+  - name: devops
     targets:
       - uri: 10.160.0.11
         name: node01
