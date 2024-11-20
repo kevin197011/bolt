@@ -1,4 +1,4 @@
-plan deploy (
+plan bolt::deploy (
   TargetSpec $nodes
 ) {
   run_command('date', $nodes)
