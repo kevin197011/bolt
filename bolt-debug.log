@@ -1,0 +1,6 @@
+2024-09-12T06:34:04.089647 INFO   [main] [Bolt::Logger] Loaded project from '/root/src/bolt'
+2024-09-12T06:34:04.089841 DEBUG  [main] [Bolt::Logger] Analytics opt-out is set, analytics will be disabled
+2024-09-12T06:34:04.090849 DEBUG  [main] [Bolt::Executor] Started with 100 max thread(s)
+2024-09-12T06:34:04.091478 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.30.0/bolt-modules:/root/src/bolt/modules:/root/src/bolt/.modules:/opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.30.0/modules
+2024-09-12T06:34:04.092500 DEBUG  [main] [Bolt::Inventory] Loaded inventory from /root/src/bolt/inventory.yaml
+2024-09-12T06:34:04.093776 WARN   [main] [Bolt::Logger] CLI arguments ["run-as"] might be overridden by Inventory: /root/src/bolt/inventory.yaml [ID: cli_overrides]

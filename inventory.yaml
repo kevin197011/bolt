@@ -1,0 +1,17 @@
+# This is an example inventory.yaml
+# To read more about inventory files, see https://pup.pt/bolt-inventory
+#
+groups:
+  - name: linux
+    targets:
+      - uri: 10.160.0.11
+        name: node01
+      - uri: 10.160.0.12
+        name: node02
+config:
+  transport: ssh
+  ssh:
+    user: devops
+    port: 51337
+    host-key-check: false
+    private-key: ~.ssh/id_rsa
