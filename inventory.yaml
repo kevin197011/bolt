@@ -1,6 +1,6 @@
 # This is an example inventory.yaml
 # To read more about inventory files, see https://pup.pt/bolt-inventory
-#
+
 groups:
   - name: devops
     targets:
